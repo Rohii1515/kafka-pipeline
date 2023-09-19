@@ -9,7 +9,18 @@ How to setup confluent Kafka.
 3. [Kafka Topic](Confluent%20Topic%20Creation.md)
 4. [Obtain secrets](Kafka%20key%20and%20secrets.md)
 ***
+To use confluent kafka we need following details from Confluent dashboard.
 
+```
+confluentClusterName = ""
+confluentBootstrapServers = ""
+confluentTopicName = ""
+confluentApiKey = ""
+confluentSecret = ""
+confluentSchemaApiKey = ""
+confluentSchemaSecret = ""
+endpoint = "" 
+```
 Step 1: Create a conda environment
 ```
 conda --version
