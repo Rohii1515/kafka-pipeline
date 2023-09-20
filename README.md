@@ -27,7 +27,8 @@ confluentSchemaSecret = ""
 endpoint = ""
 ```
 ***
-## Tech Stack Used 
+## Tech Stack Used ![karate_chop](https://github.com/Rohii1515/kafka-sensor-pipeline/assets/101645749/20f15e4d-a46b-43d1-84b0-e68dfc4aeb14)
+
 1. Python 
 2. Bash
 3. MongoDB
