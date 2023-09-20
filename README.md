@@ -1,7 +1,12 @@
-# confluent-kafka-Pipline
+# confluent-kafka-Pipline 
+![pipeline](https://github.com/Rohii1515/kafka-sensor-pipeline/assets/101645749/db5bf214-0ac1-47e9-a44f-0ce664205cf3)
+
 this repo help us to know how to publish and consume data to end from kafka confluent in json format.
 
 ![download](https://user-images.githubusercontent.com/34875169/169837256-b5cce5b4-0b10-4a5b-82b7-926f10690437.png)
+***
+# High Level Architecture 🪢📈
+![image](assets/high-level.png)
 ***
 How to setup confluent Kafka.
 1. [Account Setup](Confluent%20Account.md)
@@ -19,8 +24,14 @@ confluentApiKey = ""
 confluentSecret = ""
 confluentSchemaApiKey = ""
 confluentSchemaSecret = ""
-endpoint = "" 
+endpoint = ""
 ```
+***
+## Tech Stack Used 
+1. Python 
+2. Bash
+3. MongoDB
+***
 Step 1: Create a conda environment
 ```
 conda --version
