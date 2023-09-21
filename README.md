@@ -1,7 +1,8 @@
 # confluent-kafka-Pipline 
 ![pipeline](https://github.com/Rohii1515/kafka-sensor-pipeline/assets/101645749/db5bf214-0ac1-47e9-a44f-0ce664205cf3)
 
-this repo help us to know how to publish and consume data to end from kafka confluent in json format.
+# Overview
+This project is designed to demonstrate how to build a Confluent Kafka Pipeline that facilitates the collection, transformation, and storage of sensor data using Kafka and MongoDB. It provides a step-by-step guide on how to publish sensor data to Kafka topics, stream and transform the data using Confluent Kafka Streams, and finally, consume and store the data in a MongoDB database.
 
 ![download](https://user-images.githubusercontent.com/34875169/169837256-b5cce5b4-0b10-4a5b-82b7-926f10690437.png)
 ***
@@ -51,3 +52,14 @@ Step 4:
 ```
 pip install -r requirements.txt
 ```
+
+#### Contributing
+If you'd like to contribute to this project, please follow these guidelines:
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them with descriptive messages.
+- Push your branch to your fork.
+- Create a pull request to merge your changes into the main branch of this repository.
+#### License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
