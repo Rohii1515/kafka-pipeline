@@ -28,6 +28,10 @@ confluentSchemaSecret = ""
 endpoint = ""
 ```
 ***
+To consume confluent kafka data we need following details from MongoDB Atlas.
+```
+MONGO_DB_URL = "mongodb+srv://Rohii:<password>@cluster9.fgrr4ct5.mongodb.net/?retryWrites=true&w=majority"
+```
 ## Tech Stack Used ![karate_chop](https://github.com/Rohii1515/kafka-sensor-pipeline/assets/101645749/20f15e4d-a46b-43d1-84b0-e68dfc4aeb14)
 
 1. Python 
@@ -52,7 +56,15 @@ Step 4:
 ```
 pip install -r requirements.txt
 ```
+step 5: 
+```
+Run producer_main.py to prdouce data from data source to topics in json
+```
 
+step 6:
+```
+Run consumer_main.py to consume data from Confluent Kafka to MongoDB in json format
+```
 #### Contributing
 If you'd like to contribute to this project, please follow these guidelines:
 
