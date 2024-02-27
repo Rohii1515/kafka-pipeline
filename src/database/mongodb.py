@@ -1,11 +1,10 @@
-import pymongo
-import os
-
-
-import certifi
+import pymongo  # This module provides tools to work with MongoDB databases in Python.
+import os  # This module interacts with the operating system.
+import certifi  # This module helps with certificates used for secure connections (TLS/SSL).
 
 ca = certifi.where()
-
+    # Finds the location of the certificate authority (CA) file used for verifying secure connections (TLS/SSL). 
+    # It's important to establish a secure connection when working with sensitive data like database interactions.
 
 class MongodbOperation:
     def __init__(self) -> None:
